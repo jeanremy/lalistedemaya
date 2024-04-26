@@ -1,0 +1,9 @@
+.button {
+  background-color: var(--color-citrus);
+  border-radius: 9999px;
+  padding-inline: 1.5rem;
+  padding-block: 0.875rem;
+  text-decoration: none;
+  display: inline-flex;
+  line-height: 1;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="utf-8">
+    {% if page.url == "/" %}
+      <title>Idées cadeaux - Maya, 9 ans</title>
+    {% else %}
+      <title>{{ title }} - {{ meta.siteName }}</title>
+    {% endif %}
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="{{ meta.siteDescription }}">
+    <meta name="robots" content="noodp">
+
+    <link rel="stylesheet" href="/assets/css/index.css"/>
+
+  </head>
+  <body class="page">
+
+    <header class="page__header" role="banner">
+      <div class="container">
+        <div class="banner">
+          <img src="assets/img/avatar.png" alt="" >
+          <h1 class="page__title">Les idées cadeaux de <span>Maya</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <main class="page__content" role="main">
+      {{ content | safe }}
+    </main>
+
+    <footer role="contentinfo" class="page__footer">
+      <div class="container text-center">
+        <p>Crédits: Besom font par <a href="https://dribbble.com/shots/1867868-Besom-free-font">Krisjanis Mezulis</a> - Memoji par Apple.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

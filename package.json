@@ -1,0 +1,17 @@
+{
+  "name": "giftlist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0-alpha.4",
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "@notionhq/client": "^2.2.14",
+    "dotenv": "^16.4.1",
+    "open-graph-scraper": "^6.3.3"
+  },
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve"
+  }
+}

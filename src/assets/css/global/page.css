@@ -1,0 +1,14 @@
+:root {
+  --color-citrus: #dbe976;
+  --color-mauve: #e7b5ed;
+  --color-caramel: #e5aa45;
+  --color-beige: #f3f2df;
+  --color-pine-tree: #2a3424;
+  --color-white: #fff;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--color-pine-tree);
+  line-height: 1.4;
+}

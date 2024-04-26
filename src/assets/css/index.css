@@ -1,0 +1,10 @@
+@import 'global/reset.css';
+@import 'global/fonts.css';
+@import 'global/page.css';
+@import 'blocks/button.css';
+@import 'compositions/header.css';
+@import 'compositions/footer.css';
+@import 'compositions/main.css';
+@import 'compositions/card.css';
+@import 'utilities/layout.css';
+@import 'utilities/typography.css';

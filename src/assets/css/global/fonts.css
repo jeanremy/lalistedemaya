@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'besom';
+  src: url('../../fonts/besom.woff2') format('woff2'),
+    url('../../fonts/besom.woff') format('woff');
+}

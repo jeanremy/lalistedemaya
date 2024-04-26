@@ -1,0 +1,17 @@
+---
+layout: base.njk
+permalink: index.html
+---
+<div class="container">
+  <div class="wishlist">
+    {% for gift in gifts %}
+      <div class="card">
+        <img src="{{gift.ogImage[0].url}}" alt="" width="{{gift.ogImage[0].width}}" height="{{gift.ogImage[0].height}}">
+        <div class="card__content">
+          <p>{{gift.ogTitle}}</p>
+          <a href="{{gift.ogUrl}}" class="button">Voir</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
