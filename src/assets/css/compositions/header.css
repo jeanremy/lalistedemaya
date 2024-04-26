@@ -34,6 +34,8 @@
 .banner {
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 
   & > img {
     width: 124px;
